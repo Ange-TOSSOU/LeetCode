@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 
 public class TwoSum {
 
@@ -17,7 +18,7 @@ public class TwoSum {
     }
 
     public int[] nAlgorithm(int[] nums, int target) {
-        HashMap<Integer, Integer> complements = new HashMap<>();
+        Map<Integer, Integer> complements = new HashMap<>();
         Integer complementIndex;
 
         for (int i = 0; i < nums.length; i++) {

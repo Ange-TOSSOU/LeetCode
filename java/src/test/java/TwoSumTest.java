@@ -27,7 +27,6 @@ class TwoSumTest {
     }
 
 
-
     /* --- N Squared Time Complexity --- */
 
     @Test
@@ -55,7 +54,6 @@ class TwoSumTest {
         assertEquals(2, result.length);
         assertTrue(arraysContainSameData(result, expected));
     }
-
 
 
     /* --- N Time Complexity --- */
